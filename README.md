@@ -22,3 +22,7 @@ There are pictures of the sun and moon that change based on whether it's daytime
 
 The app is like a smart clock that knows the time in different parts of the world.
 It keeps ticking in the background, updating the time so you're never late!
+
+
+https://github.com/BunnyySharma/eighty7_assignment/assets/126193412/57fed494-1807-4387-a325-fe7d01f12c58
+
