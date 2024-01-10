@@ -22,7 +22,7 @@ class _HomeState extends State<Home> {
     timeStream = _timeStreamController.stream;
 
     // Periodically update the time and add it to the stream
-    Timer.periodic(const Duration(seconds: 1), (timer) async {
+    Timer.periodic(const Duration(seconds: 2), (timer) async {
       await inst.getTime();
       _timeStreamController.add(inst);
     });

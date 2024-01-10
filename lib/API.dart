@@ -23,11 +23,11 @@ class Time{
       isDaytime = now.hour > 6 && now.hour < 20 ? true : false;
       time = DateFormat.jm().format(now);
       Date = DateFormat('dd MMMM, yyyy').format(now);
+      print(time);
     }
     catch(e){
       print("Error: $e");
-      time="Oops! looks like some issue might've occurred.";
-      location= "";
+      Date= "Connectivity issue";
     }
   }
 }
